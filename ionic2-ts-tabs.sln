@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "ionic2-ts-tabs", "ionic2-ts-tabs.jsproj", "{B69D8865-0070-4A55-A14C-16291C9CB601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|Android.ActiveCfg = Debug|Android
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|Android.Build.0 = Debug|Android
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|Android.Deploy.0 = Debug|Android
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|iOS.ActiveCfg = Debug|iOS
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|iOS.Build.0 = Debug|iOS
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|iOS.Deploy.0 = Debug|iOS
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|Android.ActiveCfg = Release|Android
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|Android.Build.0 = Release|Android
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|Android.Deploy.0 = Release|Android
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|iOS.ActiveCfg = Release|iOS
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|iOS.Build.0 = Release|iOS
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|iOS.Deploy.0 = Release|iOS
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{B69D8865-0070-4A55-A14C-16291C9CB601}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
