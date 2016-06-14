@@ -28,7 +28,7 @@ var buildBrowserify = require('./browserify');
 var buildSass = require('ionic-gulp-sass-build');
 var copyHTML = require('ionic-gulp-html-copy');
 var copyFonts = require('ionic-gulp-fonts-copy');
-var copyScripts = require('ionic-gulp-scripts-copy');
+var copyScripts = require('./copyscripts');
 
 var isRelease = argv.indexOf('--release') > -1;
 

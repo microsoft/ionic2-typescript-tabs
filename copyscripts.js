@@ -2,8 +2,10 @@ var gulp = require('gulp');
 
 var defaultSrc = [
   'node_modules/es6-shim/es6-shim.min.js',
+  'node_modules/es6-shim/es6-shim.map',
   'node_modules/zone.js/dist/zone.js',
-  'node_modules/reflect-metadata/Reflect.js'
+  'node_modules/reflect-metadata/Reflect.js',
+  'node_modules/reflect-metadata/Reflect.js.map'
 ];
 
 module.exports = function(options) {
