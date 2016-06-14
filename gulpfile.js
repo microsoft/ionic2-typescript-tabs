@@ -24,11 +24,11 @@ gulp.task('run:before', [shouldWatch ? 'watch' : 'build']);
  * changes, but you are of course welcome (and encouraged) to customize your
  * build however you see fit.
  */
-var buildBrowserify = require('./browserify');
+var buildBrowserify = require('./_gulp/browserify');
 var buildSass = require('ionic-gulp-sass-build');
 var copyHTML = require('ionic-gulp-html-copy');
 var copyFonts = require('ionic-gulp-fonts-copy');
-var copyScripts = require('./copyscripts');
+var copyScripts = require('./_gulp/copyscripts');
 
 var isRelease = argv.indexOf('--release') > -1;
 
