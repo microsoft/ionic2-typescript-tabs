@@ -5,12 +5,14 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   },
+  "filesGlob": [
+    "**/*.ts",
+    "!node_modules/**/*"
+  ],
   "exclude": [
     "node_modules",
-    "typings/main",
-    "typings/main.d.ts",
-    "platforms",
-    ".vscode"
+    "typings/global",
+    "typings/global.d.ts"
   ],
   "compileOnSave": false,
   "atom": {
