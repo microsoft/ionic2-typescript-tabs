@@ -8,7 +8,7 @@ plugins/
 *.swp
 .DS_Store
 Thumbs.db
-
+typings/
 .vs/
 bin/
 bld/

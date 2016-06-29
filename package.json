@@ -1,4 +1,8 @@
 {
+  "name": "ionictabsb32",
+  "private": true,
+  "version": "0.0.1",
+  "description": "ionic-tabs-b32: An Ionic project",
   "dependencies": {
     "@angular/common": "2.0.0-rc.3",
     "@angular/compiler": "2.0.0-rc.3",
@@ -23,7 +27,8 @@
     "ionic-gulp-html-copy": "^1.0.0",
     "ionic-gulp-sass-build": "^1.0.0",
     "ionic-gulp-scripts-copy": "^2.0.0",
-    "run-sequence": "1.1.5"
+    "run-sequence": "1.1.5",
+    "typings": "^1.3.1"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
@@ -33,7 +38,10 @@
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
-  "cordovaPlatforms": [],
-  "name": "ionic-tabs-b32",
-  "description": "ionic-tabs-b32: An Ionic project"
+  "cordovaPlatforms": [ ],
+  "scripts": {
+    "build": "node_modules/.bin/gulp build",
+    "typings": "node_modules/.bin/typings install",
+    "postinstall": "npm run typings && npm run build"
+  }
 }
