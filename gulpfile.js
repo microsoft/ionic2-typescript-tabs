@@ -1,4 +1,4 @@
-/// <binding ProjectOpened='watch' />
+/// <binding BeforeBuild='build' ProjectOpened='watch' />
 var gulp = require('gulp'),
     gulpWatch = require('gulp-watch'),
     del = require('del'),
