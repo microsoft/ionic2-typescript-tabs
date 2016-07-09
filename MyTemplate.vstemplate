@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Ionic2.Tabs.Beta10.1</Name>
-    <Description>&lt;No description available&gt;</Description>
-    <ProjectType>JavaScript</ProjectType>
+    <Name>Ionic 2 (Beta 10) Tabs</Name>
+    <Description>Template to start an Ionic 2 Beta 10 Tabs app</Description>
+    <ProjectType>TypeScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
